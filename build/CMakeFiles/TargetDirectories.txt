@@ -1,0 +1,3 @@
+/home/xy/remove_dynamic_points/remove_dynamic_points/build/CMakeFiles/remove_dynamic_points.dir
+/home/xy/remove_dynamic_points/remove_dynamic_points/build/CMakeFiles/edit_cache.dir
+/home/xy/remove_dynamic_points/remove_dynamic_points/build/CMakeFiles/rebuild_cache.dir

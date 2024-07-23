@@ -162,10 +162,10 @@ int main(int argc, char** argv) {
         viewer->spinOnce(100); // 更新视图
 
         if (!is_selecting && !selected_polygons.empty()) {
-            removeSelectedPoints(cloud, selected_polygons,"filtered_point_cloud.pcd");
+            removeSelectedPoints(cloud, selected_polygons,config["output_pcd_file"]);
             viewer->removePointCloud("sample cloud");
             viewer->addPointCloud<PointT>(cloud, "sample cloud");
-            viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 1, "sample cloud");
+            viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, point_size, "sample cloud");
             selected_polygons.clear(); // 本次操作过后，清空选择的多边形顶点信息
         }
     }

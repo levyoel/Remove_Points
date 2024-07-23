@@ -3,5 +3,5 @@
     "output_pcd_file": "filtered_point_cloud.pcd",
     "point_size": 1,
     "background_color": [0, 0, 0],
-    "z_height": 10.0
+    "z_height": 20.0
 }
